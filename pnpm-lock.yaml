@@ -1,3 +1,5 @@
+dependencies:
+  '@types/node': 12.0.8
 devDependencies:
   tslint: 5.17.0
   typescript: 3.5.2
@@ -17,6 +19,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-UFMC4ZeFC48Tpvj7C8UgLvtkaUuovQX+5xNWrsIoMG8o2z+XFKjKaN9iVmS84dPwVN00W4wPmqvYoZF3EGAsfw==
+  /@types/node/12.0.8:
+    dev: false
+    resolution:
+      integrity: sha512-b8bbUOTwzIY3V5vDTY1fIJ+ePKDUBqt2hC2woVGotdQQhG/2Sh62HOKHrT7ab+VerXAcPyAiTEipPu/FsreUtg==
   /ansi-styles/3.2.1:
     dependencies:
       color-convert: 1.9.3
@@ -248,5 +254,6 @@ packages:
     resolution:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 specifiers:
+  '@types/node': ^12.0.8
   tslint: ^5.17.0
   typescript: ^3.5.2
