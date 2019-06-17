@@ -1,0 +1,24 @@
+{
+  "name": "js-utils-lmr",
+  "version": "1.0.0",
+  "description": "Handy functions for JS/Node I frequently find myself rewriting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lraulin/js-utils-lmr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lraulin/js-utils-lmr/issues"
+  },
+  "homepage": "https://github.com/lraulin/js-utils-lmr#readme",
+  "devDependencies": {
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  }
+}
